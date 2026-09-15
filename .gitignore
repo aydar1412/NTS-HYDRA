@@ -1,0 +1,36 @@
+# результаты расчёта
+Гидравлический_расчёт*.pdf
+NTS-HYDRA_руководство.pdf
+*_отчёт.pdf
+
+# отчёты по синтетическому примеру и руководство публикуются
+!examples/*.pdf
+!docs/*.pdf
+
+# рабочие файлы Excel
+~$*.xlsx
+*.xlsm
+
+# ДАННЫЕ ПО СКВАЖИНАМ НЕ ПУБЛИКУЮТСЯ
+data/
+private/
+*_факт.xlsx
+*_реальные*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# среды разработки
+.idea/
+.vscode/
+.thonny/
+
+# системное
+.DS_Store
+Thumbs.db

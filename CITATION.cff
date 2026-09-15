@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Если вы используете NTS-HYDRA в работе, пожалуйста, сошлитесь на программу."
+title: "NTS-HYDRA: поинтервальный гидравлический расчёт промывки скважины"
+abstract: >-
+  Инженерная программа для расчёта гидравлики промывки при бурении:
+  потери давления по интервалам, эквивалентная плотность циркуляции,
+  показатели работы долота и очистка ствола. Реология по Гершелю-Балкли,
+  учёт эксцентриситета и вращения колонны, трёхрежимная модель выноса
+  шлама с расчётом высоты шламовой подушки. Выпускает PDF-отчёт.
+type: software
+authors:
+  - family-names: Rakhmatullin
+    given-names: Aydar
+version: "0.1.0-alpha"
+license: Apache-2.0
+languages:
+  - ru
+  - en
+  - fr
+keywords:
+  - drilling
+  - hydraulics
+  - equivalent circulating density
+  - hole cleaning
+  - Herschel-Bulkley
+  - petroleum engineering
